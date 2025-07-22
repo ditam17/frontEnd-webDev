@@ -1,0 +1,43 @@
+body {
+  height: 50vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-section {
+  text-align: center;
+}
+.div-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.div {
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+#grey {
+  background-color: grey;
+}
+#white {
+  background-color: white;
+}
+#blue {
+  background-color: blue;
+}
+#yellow {
+  background-color: yellow;
+}
+#green {
+  background-color: green;
+}
+#red {
+  background-color: red;
+}
+p {
+  font-weight: bold;
+  font-size: 20px;
+}
